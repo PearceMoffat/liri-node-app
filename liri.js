@@ -72,7 +72,7 @@ function Spot(songName) {
             console.log("Song Title".yellow.underline);
             console.log(data.tracks.items[i].name.magenta);
             console.log("Ctrl+Click to Preview Song".yellow.underline);
-            console.log(data.tracks.items[0].external_urls.spotify.blue);
+            console.log(data.tracks.items[i].external_urls.spotify.blue);
             console.log("Album Name".yellow.underline);
             console.log(data.tracks.items[i].album.name.magenta); 
             console.log("==================================================================".zebra);
