@@ -1,1 +1,1 @@
-# liri-node-app
+Simple node app with 4 commands. Run using "node liri-node-app.js command info". The command can be one of 4 options. my-tweets will display my last 20 tweets. spotify-this-song will display information about a song. movie-this will display information about a movie. do-what-it-says will read a new command from a text file and then run it. If spotify-this-song or movie-this are called, the name of the movie/song can be specified in the "info" spot. If no info is provided, each function has a default title to search.
